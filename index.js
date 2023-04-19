@@ -7,8 +7,8 @@ const server = http.createServer((req, res )=> {// criando o servidor
    res.statusCode = 200; // status ok de empresa
 
    res.setHeader ('content-type', 'text/plain ');
-   res.end('ola Mundo uba');
-
+   res.end('ola Meu nome GabiBk26');
+   
 });
 
 server.listen(port,hostname,()=>{
